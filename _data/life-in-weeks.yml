@@ -19,7 +19,7 @@
       association: "St. E"
 
 "1984-04-01":
-    - headline: "🖥️ First home computer"
+    - headline: "🖥️ First computer"
       description: "Dad loved gadgets and was ahead of his time when he bought us an IBM PCjr. Wrote my first BASIC programs on that machine, played the Keyboard Adventure easter egg game, Kings Quest and Space Quest, and drew a pixelated Van Halen logo with A."
 
 "1989-09-01":
@@ -34,7 +34,7 @@
       description: "New Kids on the Block at Madison Square Garden. Whole school won tickets in an NYC radio contest by writing the most index cards of any other school in the 5 boroughs."
 
 "1991-10-01":
-    - headline: "💶 First Europe trip"
+    - headline: "💶 Europe"
       description: "My first time travelling outside of the US was a school trip to Europe: Italy, France, and England. Begged my parents to let me go on this trip instead of have a sweet sixteen party (blech)."
 
 "1992-09-20":
@@ -53,16 +53,16 @@
       description: "Started an on-campus job at Marist's computer lab help desk, where I worked all 4 years. The lab ran mainframe terminals, OS/2 and DOS workstations. Printers jammed constantly. Earned minimum wage, $4.25/hour, and learned so much."
 
 "1994-10-01":
-    - headline: "🌎 Saw my first webpage"
-      description: "A coworker in the computer lab showed me the Mosaic browser running on OS/2 around this time. Huge lightbulb moment."
+    - headline: "🌎 Saw first webpage"
+      description: "Around this time, I saw a webpage for the first time. A coworker in the computer lab showed me the Mosaic browser running on OS/2. Lightbulb moment."
 
 "1995-10-03":
     - headline: "💔 Lost Dad"
       description: "Miss you every day."
 
 "1996-10-01":
-    - headline: "🌎 Made first websites"
-      description: "By now I was making my own webpages in earnest, spending long nights in the lab office, a room of my own with a computer and a door."
+    - headline: "🌎 Made first webpages"
+      description: "Around this time, I started making my own webpages in earnest, spending long nights in the lab office, a room of my own with a computer and a door."
 
 "1997-03-21":
     - headline: "💝 First date with T"
@@ -83,12 +83,12 @@
     - headline: "🏠 Moved home"
 
 "1997-07-01":
-    - headline: "🌅 Went west"
-      description: "First time to the left coast. Visited Phoenix, Sedona, Yosemite, and San Francisco with Mom & L. This is when I knew I'd move west someday."
+    - headline: "🌅 West"
+      description: "Took my first trip to the left coast with Mom & L. We visited Phoenix, Sedona, Yosemite, and San Francisco. This is when I knew I'd move west someday."
 
 "1997-07-15":
-    - headline: "🛗 Elevator company"
-      description: "First professional IT job at the company where Dad and my brothers worked. Mostly learned networking and programming Java."
+    - headline: "🛗 Elevators"
+      description: "First professional IT job at the elevator company where Dad and my brothers worked. Elevator control is a fascinating engineering and programming problem. Mostly learned networking and programming Java here."
       doing: "Working"
       association: "O. Thompson"
 
@@ -116,7 +116,7 @@
 
 "2000-01-01":
     - headline: "🏡 Left home"
-      description: "Moved into my first working-adult apartment."
+      description: "Moved in with L, my first working-adult apartment."
 
 "2000-03-01":
     - headline: "⚡️ Bolt"
@@ -146,15 +146,15 @@
       description: "It was a Canon Powershot Digital Elph, maybe 3MP. I photographed everything all the time."
 
 "2003-08-14":
-    - headline: "🕯️ Northeast blackout"
-      description: "With the subways ground to a halt, walked home 8 miles across the bridge with N from the office in sandals. Ouch."
+    - headline: "🕯️ Blackout"
+      description: "With the subways ground to a halt in the 2003 Northeast blackout, I walked home 8 miles across the bridge with N from the office in sandals. Ouch."
 
 "2003-05-01":
     - headline: "🐝 Freelancing"
       based: "Brooklyn"
       doing: "Freelancing"
       association: ""
-      description: "Left Bolt to try my hand at contract work, at NetAid and later The Digital Journalist with Dirck Halstead. Mostly I worked as a developer on Kinja with Meg, Mark, & Nick of Gawker Media."
+      description: "Left Bolt to try my hand at contract work, at NetAid and later The Digital Journalist. Mostly I worked as a developer on Kinja with Meg, Mark & Nick of Gawker Media."
 
 "2004-09-20":
     - headline: "🚁 Helicopter flight"
@@ -168,7 +168,7 @@
       description: "Started Lifehacker at Gawker with Nick and Choire coaching me on how to evolve from a personal blogger to a working media blogger."
 
 "2005-08-23":
-    - headline: "✈️ Flew an airplane"
+    - headline: "✈️ Piloted an airplane"
       description: "Took my first flying lesson with D in a little four-seater off Cape Cod. What a feeling."
 
 "2005-09-01":
@@ -190,8 +190,8 @@
       description: "Saw The Beach, rode elephants, sailed in long-tail boats, and ate banh mi, with D&A."
 
 "2008-06-17":
-    - headline: "💍 Marriage legalized"
-      description: "When California recognized same-sex marriage legally, we got married again on the court steps in San Diego, along with countless other couples."
+    - headline: "👩‍⚖️ Married legally"
+      description: "When California legally recognized same-sex marriage, we got married again on the court steps in San Diego, along with countless other couples."
 
 "2008-10-18":
     - headline: "🚴‍♂️ First triathlon"
@@ -216,7 +216,7 @@
       based: "San Diego"
       doing: "Working"
       association: "ThinkUp"
-      description: "Pushed the first bit of code for a utility I called Twitalytic, which later became ThinkUp, the company and open source software I built with Anil."
+      description: "Pushed the first bit of code for a utility I called Twitalytic, which became ThinkUp, the company and open source software and community I built with Anil over the next 7 years."
 
 "2010-01-15":
     - headline: "🐋 Submarine dive"
@@ -226,8 +226,8 @@
     - headline: "💍 Married 10 years"
 
 "2011-06-15":
-    - headline: "₿ First Bitcoin"
-      description: "Went to a talk by a fellow nerd about some newfangled digital currency at a conference and he handed Bitcoins out at the end to anyone who was curious."
+    - headline: "₿ Bitcoin"
+      description: "Got my first Bitcoin by chance from a generous nerd when I attended a conference talk about some newfangled digital currency. He handed Bitcoins out at the end to anyone who was curious, and I was curious."
 
 "2011-07-01":
     - headline: "🇨🇳 Visited China"
@@ -248,13 +248,17 @@
 "2014-09-18":
     - headline: "👶 E turned 2"
 
+"2015-05-15":
+    - headline: "🛠️ Makerbase"
+      description: "Launched ThinkUp LLC's second product, Makerbase, an IMDb for digital product creators. Fog Creek software acquired Makerbase the next year."
+
 "2015-06-26":
-    - headline: "🏳️‍🌈 Legally married!"
-      description: "The Supreme Court of the United States ruled in the case of Obergefell v. Hodges that a fundamental right to marry is guaranteed to same-sex couples by the Fourteenth Amendment, and that states must allow same-sex marriage."
+    - headline: "🏳️‍🌈 Marriage legalized"
+      description: "Same-sex marriage became legally recognized in all 50 states across the U.S. The Supreme Court ruled in the case of Obergefell v. Hodges that a fundamental right to marry is guaranteed to same-sex couples by the Fourteenth Amendment, and that states must allow same-sex marriage."
 
 "2015-08-04":
-    - headline: "🇺🇸 White House visit"
-      description: "Launched Makerbase at the White House at its first-ever Demo Day, hosted by President Obama (on his birthday!). We sang Happy Birthday to him in the East Wing."
+    - headline: "🇺🇸 White House"
+      description: "Launched Makerbase at the White House at its first-ever Demo Day, hosted by President Obama on his birthday. We sang Happy Birthday to him in the East Wing."
 
 "2015-09-18":
     - headline: "👶 E turned 3"
@@ -264,11 +268,11 @@
       based: "Brooklyn"
       doing: "Working"
       association: "Postlight"
-      description: "An agency? Why not?"
+      description: "An agency, why not?"
 
 "2016-06-13":
-    - headline: "📈 Shut down ThinkUp"
-      description: "Refunded our subscribers with lots of sadness and gratitude."
+    - headline: "📉 Shut down ThinkUp"
+      description: "The SaaS model didn't work. We refunded our subscribers with lots of sadness and gratitude."
 
 "2016-09-18":
     - headline: "👶 E turned 4"
@@ -280,11 +284,11 @@
     - headline: "👧 E turned 5"
 
 "2018-03-21":
-    - headline: "🤩 Gillian tweeted me"
-      description: "Gillian Anderson replied thank you to a fangirl tweet from me. Printed, framed, and hung on my wall."
+    - headline: "🤩 Gillian tweet"
+      description: "Gillian Anderson replied \"thank you, Gina\" to a fangirl tweet from me. Printed, framed, and hung on my wall."
 
 "2018-07-26":
-    - headline: "🪂 Went paragliding"
+    - headline: "🪂 Paragliding"
       description: "Off the coast in San Diego, spectacular."
 
 "2018-09-18":
@@ -301,9 +305,9 @@
       description: "Just a global pandemic."
 
 "2020-03-30":
-    - headline: "🦆 Escaped to NC"
+    - headline: "🦆 North Carolina"
       based: "North Carolina"
-      description: "Hunkered in the suburbs. Pandemic NYC wasn't good."
+      description: "Pandemic NYC was scary, so we escaped to North Carolina and hunkered in the suburbs, near a beautiful pond with ducks. I spent a lot of time at that pond."
 
 "2020-09-30":
     - headline: "🥯 Back to Brooklyn"
@@ -314,14 +318,14 @@
     - headline: "💍 Married 20 years"
 
 "2021-06-15":
-    - headline: "🏢 Became CEO"
+    - headline: "👔 Became CEO"
 
 "2021-09-18":
     - headline: "👧 E turned 9"
 
 "2022-06-17":
-    - headline: "🏯 Sold Postlight"
-      description: "Sold to NTT DATA, the biggest IT services firm you've never heard of, the company that invented the emoji. 😃"
+    - headline: "💸 Sold Postlight"
+      description: "After a long process, we sold the company to NTT DATA, the biggest IT services firm you've never heard of, the company that invented the emoji. 😃"
       based: "Brooklyn"
       doing: "Working"
       association: "NTT DATA"
@@ -331,7 +335,7 @@
 
 "2022-12-28":
     - headline: "👩‍⚕️ Cancer"
-      description: "Grateful to MSK for the successful treatment of a scary diagnosis."
+      description: "Grateful to MSK for my successful treatment."
 
 "2023-07-01":
     - headline: "🇮🇹 Sicily"
@@ -341,7 +345,7 @@
     - headline: "👧 E turned 11"
 
 "2024-07-17":
-    - headline: "🏯 Left NTT DATA"
+    - headline: "🧘‍♀️ Left NTT DATA"
       based: "Brooklyn"
       doing: "Funemployed"
       association: ""
@@ -353,6 +357,10 @@
 "2024-10-20":
     - headline: "🏀 Liberty won!"
       description: "Got to see the NY Liberty win their first WNBA championship in person at Barclays Center. WE ALL WE GOT, WE ALL WE NEED."
+
+"2025-02-05":
+    - headline: "📍 Made this"
+      description: "A lot of rest and reflection and space and time to explore led to finding Life in Weeks, copying it, and making it my own."
 
 "2059-09-19":
     - headline: "☠️ Life expectancy"
