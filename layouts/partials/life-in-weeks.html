@@ -32,7 +32,7 @@ There are three main loops in this page, each nested inside the other: Years, We
 
 {{- /* Row control vars, be sure to test adjustments mobile-first */ -}}
 {{ $.Store.Set "totalBoxesInRow" 0 }} {{- /* Increments with each week */ -}}
-{{ $.Store.Set "maxBoxesInRow" 21 }} {{- /* Keep it justified, right edge even */ -}}
+{{ $.Store.Set "maxBoxesInRow" 52 }} {{- /* Keep it justified, right edge even */ -}}
 {{ $.Store.Set "labelLenMultiplier" .45 }} {{- /* Adjust up or down for snugness */ -}}
 
 {{- /* Set starting values with first event */ -}}
@@ -63,11 +63,6 @@ There are three main loops in this page, each nested inside the other: Years, We
         {{ if ne $age 0 }}
             {{ $decadeDiff := mod $age 10 }}
             {{ if eq $decadeDiff 0 }}
-        </div>
-    </div>
-    <div id="decade-{{ $age }}">
-        <div class="col-12 d-flex justify-content-between">
-                {{ $.Store.Set "totalBoxesInRow" 0 }}
             {{ end }}
             {{- /* Check if we need to break to the next row before the birthday */ -}}
             {{ if ge ($.Store.Get "totalBoxesInRow") ($.Store.Get "maxBoxesInRow") }}
@@ -81,7 +76,7 @@ There are three main loops in this page, each nested inside the other: Years, We
             {{ $.Store.Set "buttonDataDate" $thisYear }}
             {{ $.Store.Set "buttonDataBSTitle" (printf "%s – Turned %d year%s old" (dateFormat "Jan 2, 2006" $thisYear) $age (cond (ne $age 1) "s" "")) }}
             {{ $buttonLabel := (printf "🎂 %d in %d" $age $year) }}
-            {{ $.Store.Set "buttonLabel" $buttonLabel }}
+            {{ $.Store.Set "buttonLabel" "" }}
             {{- /* Render birthday button */ -}}
             {{ partial "helpers/box.html" (dict "Store" $.Store)  }}
 
@@ -91,7 +86,7 @@ There are three main loops in this page, each nested inside the other: Years, We
 
             {{ $.Store.Set "totalBoxesInRow" ( add
                 ($.Store.Get "totalBoxesInRow")
-                ( mul (len $buttonLabel) ($.Store.Get "labelLenMultiplier") )
+                1
             ) }}
             {{ if ge ($.Store.Get "totalBoxesInRow") ($.Store.Get "maxBoxesInRow") }}
                 {{ partial "helpers/new-row.html" . }}
@@ -164,12 +159,12 @@ There are three main loops in this page, each nested inside the other: Years, We
                                 {{ $.Store.Set "buttonDataBSTitle" (printf "%s – %s" (dateFormat "Jan 2, 2006" $specDate ) . ) }}
                             {{ end }}
                             {{ $buttonLabel := .headline }}
-                            {{ $.Store.Set "buttonLabel" $buttonLabel }}
+                            {{ $.Store.Set "buttonLabel" "" }}
 
                             {{- /* Break if the button label will make the row too long */ -}}
                             {{ $rowPlusEventTotalBoxes := ( add
                                 ($.Store.Get "totalBoxesInRow")
-                                ( mul (len $buttonLabel) ($.Store.Get "labelLenMultiplier") )
+                                1
                             ) }}
                             {{ if ge $rowPlusEventTotalBoxes ($.Store.Get "maxBoxesInRow") }}
                                 {{ partial "helpers/new-row.html" . }}
@@ -181,7 +176,7 @@ There are three main loops in this page, each nested inside the other: Years, We
 
                             {{ $.Store.Set "totalBoxesInRow" ( add
                                 ($.Store.Get "totalBoxesInRow")
-                                ( mul (len $buttonLabel) ($.Store.Get "labelLenMultiplier") )
+                                1
                             ) }}
                             {{ if ge ($.Store.Get "totalBoxesInRow") ($.Store.Get "maxBoxesInRow") }}
                                 {{ partial "helpers/new-row.html" . }}
