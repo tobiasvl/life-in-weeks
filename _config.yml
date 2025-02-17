@@ -18,14 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Gina's Life in Weeks
-email: ginatrapani@gmail.com
+title: Tobias's Life in Weeks
+email: tobias@langhoff.no
 description: >- # this means to ignore newlines until "baseurl:"
-    Hi, I’m Gina. This is a map of my life, where each week I’ve been alive is a little box. Tap a box to see what I was doing where that week. This life is a work in progress. I’ll update the map as I go.
+    Hi, I’m Tobias. This is a map of my life, where each week I’ve been alive is a little box. Tap a box to see what I was doing where that week. This life is a work in progress. I’ll update the map as I go.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ginatrapani.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ginatrapani
-github_username: ginatrapani
+url: "https://tobiasvl.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: tobiasvl
 
 # Build settings
 theme: minima
